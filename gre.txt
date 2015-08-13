@@ -1,0 +1,816 @@
+[c9w :-> [GHC.Types.Char
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ c9z :-> [GHC.Types.IO
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ c9D :-> [Data.Maybe.Maybe
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Maybe’)],
+ c9E :-> [GHC.Base.Monad
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ c9P :-> [GHC.Types.Int
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ chs :-> [Data.Either.Either
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Either’)],
+ chQ :-> [GHC.Base.Functor
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ chR :-> [GHC.Base.String
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ci3 :-> [GHC.Enum.Bounded
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ ci4 :-> [GHC.Enum.Enum
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ cig :-> [GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ cih :-> [GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ ciQ :-> [GHC.Num.Num
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Num’)],
+ ciX :-> [GHC.Real.Fractional
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ciY :-> [GHC.Real.Integral
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ciZ :-> [GHC.Real.Rational
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ cj0 :-> [GHC.Real.Real
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ cj1 :-> [GHC.Real.RealFrac
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ cjp :-> [GHC.Show.Show
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Show’)],
+ cjq :-> [GHC.Show.ShowS
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Show’)],
+ ckC :-> [GHC.IO.FilePath
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.IO’)],
+ ckD :-> [GHC.IO.Exception.IOError
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.IO.Exception’)],
+ ckG :-> [Text.ParserCombinators.ReadP.ReadS
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Text.ParserCombinators.ReadP’)],
+ clU :-> [GHC.Types.Bool
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ clV :-> [GHC.Types.Double
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ clW :-> [GHC.Types.Float
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ cm3 :-> [GHC.Integer.Type.Integer
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘integer-gmp:GHC.Integer.Type’)],
+ cDx :-> [GHC.Classes.Eq
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ cDy :-> [GHC.Classes.Ord
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ cDW :-> [GHC.Read.Read
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Read’)],
+ cEz :-> [GHC.Types.Ordering
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ dht :-> [Data.Either.Left parent:Data.Either.Either
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Either’)],
+ dhu :-> [Data.Either.Right parent:Data.Either.Either
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Either’)],
+ dhF :-> [Data.Maybe.Just parent:Data.Maybe.Maybe
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Maybe’)],
+ dhG :-> [Data.Maybe.Nothing parent:Data.Maybe.Maybe
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Maybe’)],
+ dm7 :-> [GHC.Types.False parent:GHC.Types.Bool
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ dm8 :-> [GHC.Types.True parent:GHC.Types.Bool
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ dEA :-> [GHC.Types.LT parent:GHC.Types.Ordering
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ dEB :-> [GHC.Types.EQ parent:GHC.Types.Ordering
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ dEC :-> [GHC.Types.GT parent:GHC.Types.Ordering
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Types’)],
+ ihn :-> [Control.Monad.=<<
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Control.Monad’)],
+ iho :-> [Control.Monad.mapM
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Control.Monad’)],
+ ihp :-> [Control.Monad.mapM_
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Control.Monad’)],
+ ihq :-> [Control.Monad.sequence
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Control.Monad’)],
+ ihr :-> [Control.Monad.sequence_
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Control.Monad’)],
+ ihv :-> [Data.Either.either
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Either’)],
+ ihw :-> [Data.List.foldl1
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ ihx :-> [Data.List.lines
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ ihy :-> [Data.List.maximum
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ ihz :-> [Data.List.minimum
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ ihA :-> [Data.List.product
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ ihB :-> [Data.List.sum
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ ihC :-> [Data.List.unlines
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ ihD :-> [Data.List.unwords
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ ihE :-> [Data.List.words
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ ihH :-> [Data.Maybe.maybe
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Maybe’)],
+ ihI :-> [Data.Tuple.curry
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Tuple’)],
+ ihJ :-> [Data.Tuple.fst
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Tuple’)],
+ ihK :-> [Data.Tuple.snd
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Tuple’)],
+ ihL :-> [Data.Tuple.uncurry
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Data.Tuple’)],
+ ihM :-> [GHC.Base.++
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.Base’)],
+ ihN :-> [GHC.Base..
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ihO :-> [GHC.Base.>> parent:GHC.Base.Monad
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ihP :-> [GHC.Base.>>= parent:GHC.Base.Monad
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ihS :-> [GHC.Base.asTypeOf
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ihT :-> [GHC.Base.const
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ihU :-> [GHC.Base.fail parent:GHC.Base.Monad
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ihV :-> [GHC.Base.flip
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ihW :-> [GHC.Base.fmap parent:GHC.Base.Functor
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ihX :-> [GHC.Base.foldr
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.Base’)],
+ ihY :-> [GHC.Base.id
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ihZ :-> [GHC.Base.map
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ii0 :-> [GHC.Base.otherwise
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ii1 :-> [GHC.Base.return parent:GHC.Base.Monad
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ii2 :-> [GHC.Base.until
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ ii5 :-> [GHC.Enum.enumFrom parent:GHC.Enum.Enum
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ ii6 :-> [GHC.Enum.enumFromThen parent:GHC.Enum.Enum
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ ii7 :-> [GHC.Enum.enumFromThenTo parent:GHC.Enum.Enum
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ ii8 :-> [GHC.Enum.enumFromTo parent:GHC.Enum.Enum
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ ii9 :-> [GHC.Enum.fromEnum parent:GHC.Enum.Enum
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ iia :-> [GHC.Enum.maxBound parent:GHC.Enum.Bounded
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ iib :-> [GHC.Enum.minBound parent:GHC.Enum.Bounded
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ iic :-> [GHC.Enum.pred parent:GHC.Enum.Enum
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ iid :-> [GHC.Enum.succ parent:GHC.Enum.Enum
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ iie :-> [GHC.Enum.toEnum parent:GHC.Enum.Enum
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Enum’)],
+ iif :-> [GHC.Float.** parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iii :-> [GHC.Float.acos parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iij :-> [GHC.Float.acosh parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iik :-> [GHC.Float.asin parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iil :-> [GHC.Float.asinh parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iim :-> [GHC.Float.atan parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iin :-> [GHC.Float.atan2 parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iio :-> [GHC.Float.atanh parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iip :-> [GHC.Float.cos parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiq :-> [GHC.Float.cosh parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iir :-> [GHC.Float.decodeFloat parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iis :-> [GHC.Float.encodeFloat parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iit :-> [GHC.Float.exp parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiu :-> [GHC.Float.exponent parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiv :-> [GHC.Float.floatDigits parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiw :-> [GHC.Float.floatRadix parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iix :-> [GHC.Float.floatRange parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiy :-> [GHC.Float.isDenormalized parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiz :-> [GHC.Float.isIEEE parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiA :-> [GHC.Float.isInfinite parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiB :-> [GHC.Float.isNaN parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiC :-> [GHC.Float.isNegativeZero parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiD :-> [GHC.Float.log parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiE :-> [GHC.Float.logBase parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiF :-> [GHC.Float.pi parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiG :-> [GHC.Float.scaleFloat parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiH :-> [GHC.Float.significand parent:GHC.Float.RealFloat
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiI :-> [GHC.Float.sin parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiJ :-> [GHC.Float.sinh parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiK :-> [GHC.Float.sqrt parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiL :-> [GHC.Float.tan parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiM :-> [GHC.Float.tanh parent:GHC.Float.Floating
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Float’)],
+ iiN :-> [GHC.Num.* parent:GHC.Num.Num
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Num’)],
+ iiO :-> [GHC.Num.+ parent:GHC.Num.Num
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Num’)],
+ iiP :-> [GHC.Num.- parent:GHC.Num.Num
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Num’)],
+ iiR :-> [GHC.Num.abs parent:GHC.Num.Num
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Num’)],
+ iiS :-> [GHC.Num.fromInteger parent:GHC.Num.Num
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Num’)],
+ iiT :-> [GHC.Num.negate parent:GHC.Num.Num
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Num’)],
+ iiU :-> [GHC.Num.signum parent:GHC.Num.Num
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Num’)],
+ iiV :-> [GHC.Num.subtract
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Num’)],
+ iiW :-> [GHC.Real./ parent:GHC.Real.Fractional
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ij2 :-> [GHC.Real.^
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ij3 :-> [GHC.Real.^^
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ij4 :-> [GHC.Real.ceiling parent:GHC.Real.RealFrac
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ij5 :-> [GHC.Real.div parent:GHC.Real.Integral
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ij6 :-> [GHC.Real.divMod parent:GHC.Real.Integral
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ij7 :-> [GHC.Real.even
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ij8 :-> [GHC.Real.floor parent:GHC.Real.RealFrac
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ij9 :-> [GHC.Real.fromIntegral
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ija :-> [GHC.Real.fromRational parent:GHC.Real.Fractional
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijb :-> [GHC.Real.gcd
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijc :-> [GHC.Real.lcm
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijd :-> [GHC.Real.mod parent:GHC.Real.Integral
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ije :-> [GHC.Real.odd
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijf :-> [GHC.Real.properFraction parent:GHC.Real.RealFrac
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijg :-> [GHC.Real.quot parent:GHC.Real.Integral
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijh :-> [GHC.Real.quotRem parent:GHC.Real.Integral
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ iji :-> [GHC.Real.realToFrac
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijj :-> [GHC.Real.recip parent:GHC.Real.Fractional
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijk :-> [GHC.Real.rem parent:GHC.Real.Integral
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijl :-> [GHC.Real.round parent:GHC.Real.RealFrac
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijm :-> [GHC.Real.toInteger parent:GHC.Real.Integral
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijn :-> [GHC.Real.toRational parent:GHC.Real.Real
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijo :-> [GHC.Real.truncate parent:GHC.Real.RealFrac
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Real’)],
+ ijr :-> [GHC.Show.show parent:GHC.Show.Show
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Show’)],
+ ijs :-> [GHC.Show.showChar
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Show’)],
+ ijt :-> [GHC.Show.showList parent:GHC.Show.Show
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Show’)],
+ iju :-> [GHC.Show.showParen
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Show’)],
+ ijv :-> [GHC.Show.showString
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Show’)],
+ ijw :-> [GHC.Show.shows
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Show’)],
+ ijx :-> [GHC.Show.showsPrec parent:GHC.Show.Show
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Show’)],
+ ijy :-> [System.IO.appendFile
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijz :-> [System.IO.getChar
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijA :-> [System.IO.getContents
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijB :-> [System.IO.getLine
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijC :-> [System.IO.interact
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijD :-> [System.IO.print
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijE :-> [System.IO.putChar
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijF :-> [System.IO.putStr
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijG :-> [System.IO.putStrLn
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijH :-> [System.IO.readFile
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijI :-> [System.IO.readIO
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijJ :-> [System.IO.readLn
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijK :-> [System.IO.writeFile
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:System.IO’)],
+ ijL :-> [Text.Read.read
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Text.Read’)],
+ ijM :-> [Text.Read.reads
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:Text.Read’)],
+ ijN :-> [Prelude.$! imported from ‘Prelude’ at Hiding.hs:1:8-13],
+ ijT :-> [GHC.IO.Exception.ioError
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.IO.Exception’)],
+ ijU :-> [GHC.IO.Exception.userError
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.IO.Exception’)],
+ ijV :-> [GHC.List.!!
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ijW :-> [GHC.List.all
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ijX :-> [GHC.List.and
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ijY :-> [GHC.List.any
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ijZ :-> [GHC.List.break
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik0 :-> [GHC.List.concatMap
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik1 :-> [GHC.List.cycle
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik2 :-> [GHC.List.drop
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik3 :-> [GHC.List.dropWhile
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik4 :-> [GHC.List.elem
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik5 :-> [GHC.List.foldl
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik6 :-> [GHC.List.foldr1
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik7 :-> [GHC.List.head
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik8 :-> [GHC.List.init
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ik9 :-> [GHC.List.iterate
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ika :-> [GHC.List.last
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikb :-> [GHC.List.length
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikc :-> [GHC.List.lookup
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikd :-> [GHC.List.notElem
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ike :-> [GHC.List.null
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikf :-> [GHC.List.or
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikg :-> [GHC.List.repeat
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikh :-> [GHC.List.replicate
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ iki :-> [GHC.List.reverse
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikj :-> [GHC.List.scanl
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikk :-> [GHC.List.scanl1
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikl :-> [GHC.List.scanr
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikm :-> [GHC.List.scanr1
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikn :-> [GHC.List.span
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ iko :-> [GHC.List.splitAt
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikp :-> [GHC.List.tail
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikq :-> [GHC.List.take
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikr :-> [GHC.List.takeWhile
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ iks :-> [GHC.List.unzip
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikt :-> [GHC.List.unzip3
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ iku :-> [GHC.List.zip3
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikv :-> [GHC.List.zipWith
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikw :-> [GHC.List.zipWith3
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ ikx :-> [GHC.Read.lex
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Read’)],
+ iky :-> [GHC.Read.readParen
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Read’)],
+ ikz :-> [GHC.Classes.&&
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ ikA :-> [GHC.Classes.not
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ ikB :-> [GHC.Classes.||
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ ikE :-> [GHC.Read.readList parent:GHC.Read.Read
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Read’)],
+ ikF :-> [GHC.Read.readsPrec parent:GHC.Read.Read
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Read’)],
+ ikH :-> [GHC.Classes./= parent:GHC.Classes.Eq
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ ikI :-> [GHC.Classes.< parent:GHC.Classes.Ord
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ ikJ :-> [GHC.Classes.<= parent:GHC.Classes.Ord
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ ikK :-> [GHC.Classes.> parent:GHC.Classes.Ord
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ ikL :-> [GHC.Classes.compare parent:GHC.Classes.Ord
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ ikM :-> [GHC.Classes.max parent:GHC.Classes.Ord
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ ikN :-> [GHC.Classes.min parent:GHC.Classes.Ord
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ iml :-> [GHC.Base.$
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Base’)],
+ imm :-> [GHC.Err.error
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Err’)],
+ imn :-> [GHC.Err.undefined
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘base:GHC.Err’)],
+ imA :-> [GHC.Prim.seq
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Prim’)],
+ iDF :-> [GHC.Classes.>= parent:GHC.Classes.Ord
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ iDG :-> [GHC.Classes.== parent:GHC.Classes.Eq
+            imported from ‘Prelude’ at Hiding.hs:1:8-13
+            (and originally defined in ‘ghc-prim:GHC.Classes’)],
+ iE5 :-> [GHC.List.concat
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ iE6 :-> [GHC.List.filter
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ iE7 :-> [GHC.List.zip
+            imported from ‘Data.List’ at Hiding.hs:3:1-29
+            (and originally defined in ‘base:GHC.List’)],
+ iI7 :-> [Hiding.m defined at Hiding.hs:7:1],
+ iJA :-> [Hiding.h defined at Hiding.hs:9:1],
+ iYE :-> [Data.List.group
+            imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i24m :-> [Data.List.genericLength
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i24R :-> [System.Environment.getArgs
+             imported from ‘System.Environment’ at Hiding.hs:4:28-34],
+ i3lb :-> [Data.List.stripPrefix
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i3lj :-> [Data.List.sortBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i3lk :-> [Data.List.nub
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i3lo :-> [Data.List.deleteBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i3ls :-> [Data.List.insert
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i3qL :-> [Data.List.union
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i3xr :-> [Data.List.delete
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i4Xm :-> [Data.List.foldl1'
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i4XJ :-> [Data.List.zipWith4
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i5KF :-> [Data.List.findIndices
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i5Ot :-> [Data.List.\\
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i5Ql :-> [Data.List.foldl'
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i5R3 :-> [Data.List.mapAccumL
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i5Rx :-> [Data.List.partition
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63h :-> [Data.List.deleteFirstsBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63i :-> [Data.List.dropWhileEnd
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63j :-> [Data.List.elemIndex
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63k :-> [Data.List.elemIndices
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63m :-> [Data.List.find
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63n :-> [Data.List.findIndex
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63o :-> [Data.List.genericDrop
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63s :-> [Data.List.genericIndex
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63w :-> [Data.List.genericReplicate
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63y :-> [Data.List.genericSplitAt
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63A :-> [Data.List.genericTake
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63C :-> [Data.List.groupBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63D :-> [Data.List.inits
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63E :-> [Data.List.insertBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63F :-> [Data.List.intercalate
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63H :-> [Data.List.intersect
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63I :-> [Data.List.intersectBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63J :-> [Data.List.intersperse
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63K :-> [Data.List.isInfixOf
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63N :-> [Data.List.isPrefixOf
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63O :-> [Data.List.isSuffixOf
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63P :-> [Data.List.mapAccumR
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63R :-> [Data.List.maximumBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63U :-> [Data.List.minimumBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i63Y :-> [Data.List.nubBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i640 :-> [Data.List.permutations
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i646 :-> [Data.List.sort
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64b :-> [Data.List.subsequences
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64f :-> [Data.List.tails
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64g :-> [Data.List.transpose
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64i :-> [Data.List.unfoldr
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64j :-> [Data.List.unionBy
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64o :-> [Data.List.unzip4
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64p :-> [Data.List.unzip5
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64q :-> [Data.List.unzip6
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64r :-> [Data.List.unzip7
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64t :-> [Data.List.zip4
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64u :-> [Data.List.zip5
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64v :-> [Data.List.zip6
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64w :-> [Data.List.zip7
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64x :-> [Data.List.zipWith5
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64y :-> [Data.List.zipWith6
+             imported from ‘Data.List’ at Hiding.hs:3:1-29],
+ i64z :-> [Data.List.zipWith7
+             imported from ‘Data.List’ at Hiding.hs:3:1-29]]
